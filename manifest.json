@@ -1,0 +1,15 @@
+{
+  "name": "WiFi Scanner - TTGO T-Display",
+  "version": "1.0.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "https://xahirlehri.github.io/firmware/wifi_scanner_ttgo.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
