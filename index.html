@@ -1,15 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>TTGO T-Display WiFi Scanner Flasher</title>
   <script type="module" src="https://unpkg.com/esp-web-tools@8.0.3/dist/web/install-button.js?module"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 40px;
+      background-color: #f2f2f2;
+    }
+    h1 {
+      color: #333;
+    }
+    esp-web-install-button {
+      margin-top: 20px;
+    }
+    .footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
   <h1>TTGO T-Display WiFi Scanner</h1>
-  <p>Click the button below to flash the firmware directly to your ESP32 TTGO T-Display.</p>
+  <p>Click below to flash your ESP32 TTGO T-Display with the WiFi Scanner firmware.</p>
 
   <esp-web-install-button manifest="manifest.json"></esp-web-install-button>
 
-  <p><strong>Developer:</strong> Zahir Lehri</p>
+  <div class="footer">
+    <p>Created by <strong>Zahir Lehri</strong></p>
+  </div>
 </body>
 </html>
