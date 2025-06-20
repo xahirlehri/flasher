@@ -6,7 +6,7 @@
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "https://xahirlehri.github.io/firmware/wifi_scanner_ttgo.bin",
+          "path": "https://xahirlehri.github.io/flasher/wifi_scanner_ttgo.bin",
           "offset": 0
         }
       ]
